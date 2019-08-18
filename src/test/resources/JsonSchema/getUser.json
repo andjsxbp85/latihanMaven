@@ -1,0 +1,35 @@
+{
+  "$Schema": "http://json-schema.org/draft-06/schema#",
+  "title": "Data User",
+  "type": "object",
+  "required": [
+    "data"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "data": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id","name","year","color"
+      ],
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "name": {
+          "type": "string"
+        },
+        "year": {
+          "type": "integer"
+        },
+        "color": {
+          "type": "string"
+        },
+        "pantone_value": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

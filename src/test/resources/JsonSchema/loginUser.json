@@ -1,0 +1,14 @@
+{
+  "$Schema": "http://json-schema.org/draft-06/schema#",
+  "title": "Data User",
+  "type": "object",
+  "required": [
+    "token"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "token":{
+      "type": "string"
+    }
+  }
+}
